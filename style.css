@@ -6,3 +6,32 @@
 body{
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+:root{
+    --primary:white;
+    --secondary:#F36C3F;
+
+}
+
+/* .header-section starts*/
+.header-section .menu p{
+    font-weight: 500;
+}
+.header-section .menu p:hover{
+    font-weight: 500;
+    color: var(--secondary);
+    cursor: pointer;
+}
+.header-section button{
+    background-color: var(--secondary);
+    border: none;
+    color: var(--primary);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 11px;
+}
+
+
+/* .header-section ends*/
