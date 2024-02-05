@@ -9,6 +9,7 @@ body{
 :root{
     --primary:white;
     --secondary:#F36C3F;
+    --black:#000000
 
 }
 
@@ -35,3 +36,36 @@ body{
 
 
 /* .header-section ends*/
+
+/* hero-section-starts */
+.hero-section .hero-txt-main{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    color: var(--black);
+}
+.hero-section button{
+    background-color: var(--primary);
+    border-radius: 20px;
+    font-size: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:1px solid rgb(114, 113, 113);
+
+}
+.hero-section button:hover{
+    background-color: var(--primary);
+    border-radius: 20px;
+    font-size: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:1px solid var(--secondary);
+    color: var(--secondary);
+
+}
+
+/* hero-section-ends */
