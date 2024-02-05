@@ -166,5 +166,29 @@ body{
     height: 90px;
 }
 
- 
+/* .brand-section ends*/
 
+/* .<!-- about-us-section --> */
+.about-section .box-side{
+    background-color: var(--secondary);
+    width: 50%;
+    height: 600px;
+}
+.about-section .box-side img{
+    height: 550px;
+    margin-left: 40%;
+    margin-top: 20px;
+
+}
+.about-content .head-txt{
+    color: var(--secondary);
+
+}
+.count-section h2{
+    color: var(--secondary);
+    font-size: 50px;
+    font-weight: 500;
+
+}
+ 
+/* .<!-- about-us-section ends--> */
