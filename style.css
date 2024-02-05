@@ -134,6 +134,7 @@ body{
 .tab-view img{
     border-radius: 15px;
     height: 90%;
+    width: 100%;
 
 }
 .tab-view button{
