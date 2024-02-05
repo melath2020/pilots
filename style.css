@@ -69,3 +69,41 @@ body{
 }
 
 /* hero-section-ends */
+
+/* .slider-section-start */
+.sider-section img{
+    border-radius: 20px;
+    height: 90%;
+}
+.carousel-indicators button{
+   
+    
+    background-color: #F36C3F
+}
+.carousel-caption{
+    margin-bottom: 200px;
+}
+.carousel-caption  button{
+    background-color: transparent;
+    color: var(--primary);
+    padding: 10px;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 1.5s
+
+}
+.carousel-caption  button:hover{
+    background-color: transparent;
+    color: var(--primary);
+    padding: 10px;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transform: scale(1.1)
+
+}
+
+/* .slider-section-ends */
