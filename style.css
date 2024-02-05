@@ -48,8 +48,8 @@ body{
     background-color: var(--primary);
     border-radius: 20px;
     font-size: 13px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     border:1px solid rgb(114, 113, 113);
@@ -59,8 +59,8 @@ body{
     background-color: var(--primary);
     border-radius: 20px;
     font-size: 13px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     border:1px solid var(--secondary);
@@ -107,3 +107,59 @@ body{
 }
 
 /* .slider-section-ends */
+
+/* .tabs-section-starts */
+.btn-tab{
+    background-color: var(--primary);
+    border: 1px solid #F36C3F4D;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    color: gray;
+    
+}
+.btn-tab:hover{
+    background-color: var(--secondary);
+    border: 1px solid #F36C3F4D;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    color:var(--primary);
+    
+}
+
+/* <!-- .tab-view-section-starts --> */
+.tab-view img{
+    border-radius: 15px;
+    height: 90%;
+
+}
+.tab-view button{
+    background-color: var(--primary);
+    border-radius: 20px;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:1px solid rgb(114, 113, 113);
+
+}
+.tab-view button:hover{
+    background-color: var(--primary);
+    border-radius: 20px;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:1px solid var(--secondary);
+    color: var(--secondary);
+
+}
+
+/* <!-- .tab-view-section-ends --> */
+
+/* .tabs-section-ends*/
