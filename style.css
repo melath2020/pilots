@@ -348,6 +348,9 @@ body {
     padding-right: 0px;
     padding-left: 0px;
 }
+.grid-section .row {
+    --bs-gutter-x: 0rem;
+}
 
 .grid-section .row .col-md-8 {
     padding-right: 0px;
