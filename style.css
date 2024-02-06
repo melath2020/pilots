@@ -541,6 +541,12 @@ body {
 
 
     }
+    .hero-section .hero-txt-main {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 60px;
+        color: var(--black);
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -563,5 +569,11 @@ body {
 
 
 
+    }
+    .hero-section .hero-txt-main {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 60px;
+        color: var(--black);
     }
 }
