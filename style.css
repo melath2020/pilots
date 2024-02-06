@@ -464,6 +464,10 @@ body {
     .hero-txt-main {
         font-size: 11px;
     }
+    .btn-get{
+        display: none;
+    }
+
 
 }
 
@@ -472,6 +476,10 @@ body {
     .hm {
         display: block;
     }
+    .btn-get{
+        display: none;
+    }
+    
 
     .menu-mob {
         margin-top: -50px;
@@ -492,7 +500,9 @@ body {
     .hm {
         display: block;
     }
-
+    .btn-get{
+        display: none;
+    }
     .menu-mob {
         margin-top: -50px;
         display: none;
@@ -510,6 +520,9 @@ body {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .hm {
+        display: block;
+    }
+      .btn-get{
         display: block;
     }
 
