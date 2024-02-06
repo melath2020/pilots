@@ -23,6 +23,22 @@ body{
 
 }
 
+/* header fixed */
+
+#navbar-header{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 4;
+    top: -120px;
+    width:100vw;
+    height: 115px;
+    display: block;
+    border-bottom:var(--thirdcolor) solid 2px;
+    transition: top 0.3s;
+    box-shadow: 1px 1px 6px 0.5px rgb(172 169 169);
+    
+}
+
 /* .header-section starts*/
 .header-section .menu p{
     font-weight: 500;
