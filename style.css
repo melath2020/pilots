@@ -48,9 +48,10 @@ body{
     left: 0;
     right: 0;
     z-index: 4;
-    background:linear-gradient(to bottom,transparent,var(---nineth-color));
+    background:linear-gradient(to bottom,transparent,var(--secondary));
     height: 100vh;
     transition: top 0.3s;
+    border-bottom: 1px solid var(--secondary);
 }
 .mobile-nav-wrappers{
      margin-top: -5px;
@@ -60,7 +61,7 @@ body{
     left: 0;
     right: 0;
     z-index: 4;
-    background:linear-gradient(to bottom,transparent, var(---nineth-color));
+    background:linear-gradient(to bottom,transparent, var(--secondary));
     height: 100vh;
     transition: top 0.3s;
 }
@@ -117,7 +118,7 @@ body{
     padding-bottom: 200px;
 }
 .mobile-nav a:hover{
-    color:var(--first-color);
+    color:var(--secondary);
 }
 
 
@@ -443,8 +444,8 @@ margin-top: -50px;
         text-align: right;
         color: var(--secondary);
         font-size: 27px;
-        margin-left: 300px;
-        padding-right: 30px;
+        margin-left: 310px;
+        padding-right: 35px;
        
         
         
