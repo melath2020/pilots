@@ -78,5 +78,3 @@ remove.addEventListener('click',function(e){
     menu.style.display='block';
     
 })
-
-
