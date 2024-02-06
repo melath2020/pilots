@@ -462,6 +462,11 @@ body {
     .hero-txt-main {
         font-size: 11px;
     }
+    .brand-section img {
+        margin-top: 15px;
+        width: 70%;
+        height: 100px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -475,6 +480,11 @@ body {
     }
     .btn-get{
         display: none;
+    }
+    .brand-section img {
+        margin-top: 30px;
+        width: 80%;
+        height: 100px;
     }
 
 
