@@ -373,6 +373,12 @@ body {
     width: 30%;
     margin-top: -50px;
 }
+.testimonial-section .card{
+    transition: 1.1s;
+}
+.testimonial-section .card:hover{
+    transform: scale(1.09);
+}
 
 /* .testimonial-section ends */
 
